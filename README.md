@@ -1,3 +1,3 @@
 # mini-php
 
-This framework still working 
+This framework still demo 
