@@ -5,11 +5,11 @@ define('ROOT', dirname(__FILE__));
 define('DS', DIRECTORY_SEPARATOR);
 
 // now require file
-require_once "config.php";
-require_once "library/database.class.php";
-require_once "library/model.class.php";
-require_once "library/view.class.php";
-require_once "library/controller.class.php";
+require_once "../config/config.php";
+require_once "../library/database.class.php";
+require_once "../library/model.class.php";
+require_once "../library/view.class.php";
+require_once "../library/controller.class.php";
 
 function __autoload($className) {
 
